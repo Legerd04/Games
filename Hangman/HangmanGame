@@ -1,6 +1,6 @@
 import random
 def play():
-        with open (r"C:\Users\User\.vscode\My Codes\states.txt", "r")as file:
+        with open (r"https://github.com/Legerd04/Games/blob/main/Hangman/states.txt", "r")as file:
            all_words = file.read().upper().splitlines()
         prop = random.choice(all_words)
         guessed_letters = []
